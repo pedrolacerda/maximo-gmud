@@ -25,10 +25,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 adsfv
 adsf
-asdfsdfsdf
-DSFGHasdf
-asdfasdfsdfasdf
-asdf
-asdf
-asdf
-adfasdfsdf
+asdfsdfsdfasdf
