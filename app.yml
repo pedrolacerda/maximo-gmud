@@ -15,11 +15,11 @@
 default_events:
 - check_run
 - check_suite
-# - commit_comment
+- commit_comment
 # - create
 # - delete
-# - deployment
-# - deployment_status
+- deployment
+- deployment_status
 # - fork
 # - gollum
 # - issue_comment
@@ -35,14 +35,14 @@ default_events:
 # - project_card
 # - project_column
 # - public
-# - pull_request
+- pull_request
 # - pull_request_review
 # - pull_request_review_comment
-# - push
+- push
 # - release
 # - repository
 # - repository_import
-# - status
+- status
 # - team
 # - team_add
 # - watch
@@ -54,7 +54,7 @@ default_events:
 default_permissions:
   # Repository creation, deletion, settings, teams, and collaborators.
   # https://developer.github.com/v3/apps/permissions/#permission-on-administration
-  # administration: read
+  administration: read
 
   # Checks on code.
   # https://developer.github.com/v3/apps/permissions/#permission-on-checks
@@ -62,11 +62,11 @@ default_permissions:
 
   # Repository contents, commits, branches, downloads, releases, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-contents
-  # contents: read
+  contents: read
 
   # Deployments and deployment statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-deployments
-  # deployments: read
+  deployments: read
 
   # Issues and related comments, assignees, labels, and milestones.
   # https://developer.github.com/v3/apps/permissions/#permission-on-issues
@@ -82,7 +82,7 @@ default_permissions:
 
   # Pull requests and related comments, assignees, labels, milestones, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-pull-requests
-  # pull_requests: read
+  pull_requests: read
 
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
@@ -98,7 +98,7 @@ default_permissions:
 
   # Commit statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-statuses
-  # statuses: read
+  statuses: read
 
   # Organization members and teams.
   # https://developer.github.com/v3/apps/permissions/#permission-on-members
@@ -136,4 +136,4 @@ default_permissions:
 
 # Set to true when your GitHub App is available to the public or false when it is only accessible to the owner of the app.
 # Default: true
-# public: false
+public: true
