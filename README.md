@@ -21,9 +21,3 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 ## License
 
 [ISC](LICENSE) © 2019 Pedro Lacerda <pedrolacerda@github.com>
-
-
-adsfv
-adsf
-asdfsdfsdfasdf
-FASDFSDFSDAF
